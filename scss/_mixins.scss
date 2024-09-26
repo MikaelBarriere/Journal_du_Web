@@ -1,0 +1,28 @@
+
+@mixin title-bg {
+    background-color: $black;
+    border-radius: 5px;
+    color: $pink;
+} 
+@mixin absolute {position: absolute ;
+    background-color: rgb(255, 30, 39, 0.8);
+    color: white; 
+}
+
+@mixin triangle ($direction,$color, $size: 0.5rem, $position: relative){
+    $half-size:$size/2;
+    border-top:$size solid $color;
+    border-left:$half-size solid transparent;
+    border-right:$half-size solid transparent;
+    position:$position;
+ 
+  }
+@mixin responsive2 ($width:600px, $font-size:2em){
+    @media (max-width: $width){
+        font-size: $font-size;
+    }
+}
+@mixin responsive05 ($width:600px, $font-size:0.5em){
+    @media (max-width: $width){
+        font-size: $font-size;}}
+    

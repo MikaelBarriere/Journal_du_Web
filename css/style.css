@@ -1,0 +1,173 @@
+@font-face {
+  font-family: "AlfaSalbOne";
+  src: url(../font/AlfaSlabOne-Regular.ttf);
+}
+body {
+  background-image: url(../img/fond.webp);
+}
+
+hr {
+  margin: 0;
+  border: 1px solid;
+}
+
+span:not(#web) {
+  font-family: "AlfaSalbOne";
+  padding: 10px;
+  float: right;
+  border-radius: 0px;
+  background-color: black;
+  border-radius: 5px;
+  color: #F5EAE6;
+  padding: 0 10px 0 10px;
+}
+
+.clear {
+  clear: both;
+}
+
+#logo > img {
+  max-width: 200px;
+  max-height: 200px;
+  float: left;
+  opacity: 50%;
+  padding: 20px;
+}
+
+#logo {
+  padding-bottom: 50px;
+}
+
+#web {
+  opacity: 50%;
+}
+
+#title-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 4em;
+  font-family: "AlfaSalbOne";
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+}
+
+h2 {
+  background-color: black;
+  border-radius: 5px;
+  color: #F5EAE6;
+  font-family: "AlfaSalbOne";
+  padding: 5px;
+  max-width: 100%;
+}
+@media (max-width: 600px) {
+  h2 {
+    font-size: 0.5em;
+  }
+}
+
+#date_du_jour {
+  font-size: 1.5em;
+  opacity: 50%;
+  font-family: "AlfaSalbOne";
+}
+@media (max-width: 600px) {
+  #date_du_jour {
+    font-size: 2em;
+  }
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+  margin: auto;
+  padding: 30px;
+  gap: 30px;
+}
+
+.card {
+  text-align: center;
+  background: linear-gradient(rgb(253, 245, 246), rgb(171, 162, 169));
+  padding: 10px;
+  text-align: justify;
+  box-shadow: 10px 5px 5px darkgrey;
+}
+
+p {
+  word-spacing: 5px;
+  opacity: 50%;
+}
+
+.photo-card {
+  float: left;
+  border: 1px white solid;
+  margin: 10px;
+}
+
+.text-box {
+  position: absolute;
+  background-color: rgba(255, 30, 39, 0.8);
+  color: white;
+  width: 200px;
+  font-family: "AlfaSalbOne";
+  text-align: center;
+}
+
+.text-box1 {
+  margin-top: 275px;
+  margin-left: 10px;
+}
+
+.text-box2 {
+  margin-top: 219px;
+  margin-left: 10px;
+}
+
+.text-box3 {
+  margin-top: 231px;
+  margin-left: 10px;
+}
+
+h3 {
+  background-color: black;
+  border-radius: 5px;
+  color: #F5EAE6;
+  color: #F5EAE6;
+  text-transform: uppercase;
+  padding: 10px;
+  text-align: center;
+}
+
+button {
+  background-color: black;
+  border-radius: 5px;
+  color: #F5EAE6;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  padding: 15px;
+  font-family: "AlfaSalbOne";
+}
+
+#triangle {
+  border-top: 0.8rem solid #F5EAE6;
+  border-left: 0.4rem solid transparent;
+  border-right: 0.4rem solid transparent;
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
